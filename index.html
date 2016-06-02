@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="jumbotron jumbotron-fluid text-justify clearfix">
+  <div class="jumbo-overlay">
+    <h1 class="display-4 text-xs-center">Video Game Industry & Community News</h1>
+  <p class="text-xs-center">
+    <a class="btn btn-warning-outline btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-push-2">
+      {% for post in site.posts %}
+      <div class="card">
+        {% if post.image %}
+        <img class="card-img-top img-fluid" src="/img/{{post.image}}" alt="">
+        {% endif %}
+        <div class="card-block">
+          <div class="article-info p-a-1">
+           <b class="post-author">• {{ post.author}}</b>
+           <b class="post-date">{{ post.date | date: "%b %-d, %Y" }}</b>
+          </div>
+          <h4 class="card-title m-t-3"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          <p class="card-text">   {{post.excerpt}}
+          <p class="card-text"><small class="text-muted">  <a class="post__title" href="{{ post.url | prepend: site.baseurl }}"></a></small></p>
+          <a class="btn btn-warning btn-block" role="button" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div>
+      </div>
+      {% endfor %}
+  </div>
+</div>
+</div>

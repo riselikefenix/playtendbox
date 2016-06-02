@@ -1,0 +1,53 @@
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-8 col-md-push-2">
+      <p>{{ site.description }} <br>
+        Follow <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> or
+        subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div id="ssk" class="ssk-sticky ssk-left ssk-group ssk-center ssk-lg">
+    <a href="" class="ssk ssk-facebook"></a>
+    <a href="" class="ssk ssk-twitter"></a>
+    <a href="" class="ssk ssk-google-plus"></a>
+    <a href="" class="ssk ssk-pinterest"></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+SocialShareKit.init();
+</script>
+<script>
+$(window).on('load, resize', function mobileViewUpdate() {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 600) {
+        $("#ssk").removeClass("ssk-left").addClass("ssk-bottom");
+    }
+});
+</script>
+
+<!-- Menu from Eddy Hernandez Code Pen!-->
+<script>
+$(function() {
+  function close() {
+    $('body').removeClass('has-active-menu');
+    setTimeout(function(){
+      $('.nav-slider').removeClass('toggling');
+    }, 500);
+  }
+
+  function open() {
+    $('body').addClass('has-active-menu');
+    $('.nav-slider').addClass('toggling');
+  }
+
+  $('.nav-mask').click(close);
+  $('.navbar-toggler').click(open);
+});
+
+</script>

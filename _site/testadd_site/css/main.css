@@ -1,0 +1,118 @@
+body{
+  background: #ddd;
+font-family: "PT Sans", sans-serif;
+}
+
+.jumbotron{
+background: black url(/img/main.png) no-repeat fixed center;
+background-size: 70%;
+  }
+
+.logo {
+  font-size: 1.5m;
+  background: -webkit-linear-gradient(left, #003791 22.5%, #fe0016 35%, #5dc21e 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  border-bottom: 2px solid yellow;
+}
+
+.card{
+  margin-bottom: 40px;
+}
+
+
+.article-col{
+background: white;
+
+}
+.navbar{
+  box-shadow: 0px 0px 4px black;
+}
+
+.post-author{
+  float: left
+}
+
+.article-info{
+  display: block;
+}
+
+.card-title{
+  text-transform: uppercase;
+}
+
+.jumbotron{
+  height: 300px;
+  margin-top: 20px;
+}
+.card{
+box-shadow: 0px 0px 15px #eee;
+
+}
+.post-date{
+  float: right;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation-link{
+  color: white;
+  font-size: 1.25em;
+  margin: 10px auto;
+  text-align: center;
+}
+.menu-li a{
+   border-bottom: 1px solid #aaa ;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  text-decoration: none;
+
+}
+
+p{
+  font-size: 1.125em;
+  color #797e83;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.img-fluid{
+margin: auto;
+}
+
+.post__title{
+font-size: 1.75em;
+text-transform: uppercase;
+margin: 15px, 0;
+}
+
+.btn{
+  font-weight: 400;
+  margin: 1em 0 2em;
+}
+
+.navbar-toggler {
+float: right;
+}
+ul.nav{
+  color: darkgrey;
+  background: red;
+}
+
+
+.navbar-brand{
+  font-size: 1.75em;
+}
+
+
+@media (min-width: 480px){ }
+
+
+}

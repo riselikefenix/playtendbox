@@ -1,0 +1,10 @@
+# Site settings
+title: PlayTendBox - An Irreverant Video Game Blog.
+email: PlayTendBox@gmail.com
+description: PlayTendBox - An irreverent video game blog about community issues and concerns. Home of the 'VideoGames, VideoGames, VideoGames!' Podcast,
+url: "http://playtendbox.com" # the base hostname & protocol for your site
+twitter_username: vgx3radio
+
+# Build settings
+markdown: kramdown
+permalink: /:title
