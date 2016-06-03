@@ -19,7 +19,7 @@ layout: default
       {% for post in site.posts %}
       <div class="card">
         {% if post.image %}
-        <img class="card-img-top img-fluid" src="/img/{{post.image}}" alt="">
+        <img class="card-img-top img-fluid" src="{{site.baseurl}}/img/{{post.image}}" alt="">
         {% endif %}
         <div class="card-block">
           <div class="article-info p-a-1">
