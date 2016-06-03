@@ -5,8 +5,9 @@ padding-top:40px;
 }
 
 .jumbotron{
-background: black url(riselikefenix.github.io/playtendbox/img/main.PNG) no-repeat fixed center;
+background: black url(../img/main.PNG) no-repeat fixed center;
 background-size: 70%;
+padding-top: 50px;
   }
 
 
