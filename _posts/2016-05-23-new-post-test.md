@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "new post test"
-image: sass-conf.jpg
+image: logo.png
 author: fake author
 permalink: text-post
 categories: jekyll update
